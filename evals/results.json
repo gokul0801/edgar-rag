@@ -1,0 +1,19 @@
+{
+  "retrieval": {
+    "recall@5": 0.6774193548387096,
+    "mrr": 0.5064516129032258,
+    "n": 31,
+    "misses": [
+      "What does Citi identify as its most stable and lowest cost source of long-term funding?",
+      "What specific credit risk does foreign exchange depreciation create for the bank's clients, particularly in relation to their debt denomination?",
+      "What factors does Charles Schwab identify as contributing to the increasing information security risks facing financial institutions?",
+      "What specific regulatory authority does the Federal Reserve have over transactions between Goldman Sachs' U.S. Bank Subsidiaries and their affiliates?",
+      "What committees and groups at Morgan Stanley are responsible for assisting in the evaluation, monitoring, and management of business activities' impact on the balance sheet, liquidity, and capital structure?",
+      "What were the specific Advisory, equity underwriting, and debt underwriting fee percentage declines for Citi's Investment Banking segment in 2022?",
+      "What was the primary reason for the $4.2 billion transfer of long-term debt from Level 3 to Level 2 fair value measurements during the 12 months ended December 31, 2025?",
+      "In commercial mortgage securitization trusts, who typically holds the power to direct the most significant activities of the trust?",
+      "What operational challenges does JPMorgan Chase identify regarding data localization requirements in certain countries?",
+      "What were the primary drivers of the $30 million net increase in JPMorgan Chase's Level 3 assets during 2023?"
+    ]
+  }
+}

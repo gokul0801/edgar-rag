@@ -1,0 +1,6 @@
+# requirements-lambda.txt
+lancedb
+anthropic
+langgraph
+pydantic
+pydantic-settings
