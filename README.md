@@ -1,6 +1,6 @@
 # EDGAR RAG
 
-Retrieval-augmented Q&A over SEC 10-K filings for large US banks, with inline citations back to the source filing.
+Retrieval-augmented Q&A over SEC 10-K filings for the 6 largest US banks, with inline citations back to the source filing.
 
 Filings are pulled from EDGAR, split by 10-K item, validated, and chunked. **Amazon Bedrock (Titan Text v2)** embeds them into a **LanceDB** index that lives in **S3** — an embedded library, not a hosted vector database, so the index never leaves the account. At query time a **LangGraph** agent plans the search, retrieves with hybrid vector + BM25 fusion and cross-encoder reranking, and synthesizes a cited answer. It runs locally under **FastAPI** and deploys to AWS as an **arm64 Docker container on Lambda** behind an IAM-authed Function URL, provisioned with **Terraform**.
 
